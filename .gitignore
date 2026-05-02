@@ -36,3 +36,33 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Logs ###
+*.log
+logs/
+
+### Environment files ###
+.env
+.env.*
+!.env.example
+
+### Local application config ###
+application-local.yml
+application-local.yaml
+application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+
+### Docker local data ###
+docker-data/
+.data/
+volumes/
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+
+### OS files ###
+Thumbs.db
